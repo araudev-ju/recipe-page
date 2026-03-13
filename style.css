@@ -65,12 +65,18 @@ body{
 .preparation-links{
     font-family: var(--font-family);
     text-decoration: none;
-    color: black;
+    color: hsl(30, 10%, 34%);;
     margin: 10px;
 }
 
 .preparation-time-ul{
     color: hsl(332, 51%, 32%);
+    margin-top: -10px;
+}
+
+.preparation-time-ul li{
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .preparation-span{

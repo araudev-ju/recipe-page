@@ -1,0 +1,180 @@
+* {
+    --Headfamily: "Young Serif", serif;
+    --font-family: "Outfit", serif;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 5px;
+    padding: 0;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 740px;
+    height: 1640px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+}
+
+.container-omelete{
+    width: 94%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container-text{
+    font-family: var(--Headfamily);
+    font-size: 40px;
+    margin: 2px 0px 0px 25px;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+.container-paragrapy{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 40px 0px 25px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation{
+    width: 90%;
+    height: 150px;
+    background-color: hsl(330, 100%, 98%);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.preparation-time{
+    color: hsl(332, 51%, 32%);
+    font-family: var(--font-family);
+    font-weight: 600;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.preparation-links{
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.preparation-time-ul{
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-span{
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+.container-ingredients{
+    margin: 50px 0 0 2px;
+    font-family: var(--Headfamily);
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.container-ingredients-ul{
+    margin: 10px 0 0 0px;
+    padding: 0 0 0 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.container-ingredients-ul::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.container-ingredients-li{
+    font-family: var(--font-family);
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+.separacao{
+    margin: 30px 0 0 0;
+}
+
+.container-instruction{
+    margin: 15px 0 0 2px;
+    font-family: var(--Headfamily);
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.container-instruction-ol{
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.container-instruction-ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+.container-intruction-span{
+    font-weight: bold;
+    font-family: var(--font-family);
+    color: hsl(30, 10%, 34%);
+
+}
+
+.container-instruction-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 10px;
+    padding-left: 15px;
+    line-height: 1.5;
+}
+
+.container-nutrition{
+    font-family: var(--Headfamily);
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.container-nutrition-p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+
+.container-nutrition-span{
+    font-family: var(--font-family);
+    color: hsl(30, 10%, 34%);
+    width: 50%;
+    display: inline-block;
+}
+
+.container-nutrition-ul{
+    list-style-type: none;
+}
+
+.container-nutrition-text{
+    font-family: var(--font-family);
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+    margin: 20px 0 0 0;
+}
+
+.separacao-nutrition{
+    border: none;
+    border-top: 1px solid hsl(30, 18%, 87%); 
+    width: 700px;
+    margin-left: -40px;
+}
